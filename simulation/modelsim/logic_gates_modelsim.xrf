@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, D:/digital lab/Gate_1.v
+source_file = 1, D:/digital lab/logic_gates.v
+source_file = 1, D:/digital lab/db/logic_gates.cbx.xml
+design_name = logic_gates
+instance = comp, \and_out~output , and_out~output, logic_gates, 1
+instance = comp, \or_out~output , or_out~output, logic_gates, 1
+instance = comp, \not_out~output , not_out~output, logic_gates, 1
+instance = comp, \nand_out~output , nand_out~output, logic_gates, 1
+instance = comp, \nor_out~output , nor_out~output, logic_gates, 1
+instance = comp, \xor_out~output , xor_out~output, logic_gates, 1
+instance = comp, \xnor_out~output , xnor_out~output, logic_gates, 1
+instance = comp, \b~input , b~input, logic_gates, 1
+instance = comp, \a~input , a~input, logic_gates, 1
+instance = comp, \and_out~0 , and_out~0, logic_gates, 1
+instance = comp, \or_out~0 , or_out~0, logic_gates, 1
+instance = comp, \xor_out~0 , xor_out~0, logic_gates, 1
